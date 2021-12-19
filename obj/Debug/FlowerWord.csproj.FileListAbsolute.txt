@@ -1,0 +1,10 @@
+D:\курсовая\FlowerWord\bin\Debug\FlowerWord.exe.config
+D:\курсовая\FlowerWord\bin\Debug\FlowerWord.exe
+D:\курсовая\FlowerWord\bin\Debug\FlowerWord.pdb
+D:\курсовая\FlowerWord\obj\Debug\FlowerWord.csprojAssemblyReference.cache
+D:\курсовая\FlowerWord\obj\Debug\FlowerWord.Form1.resources
+D:\курсовая\FlowerWord\obj\Debug\FlowerWord.Properties.Resources.resources
+D:\курсовая\FlowerWord\obj\Debug\FlowerWord.csproj.GenerateResource.cache
+D:\курсовая\FlowerWord\obj\Debug\FlowerWord.csproj.CoreCompileInputs.cache
+D:\курсовая\FlowerWord\obj\Debug\FlowerWord.exe
+D:\курсовая\FlowerWord\obj\Debug\FlowerWord.pdb

@@ -1,0 +1,213 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0175E717-FD50-47EA-B264-349FE9E5ECDD}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FlowerWord</RootNamespace>
+    <AssemblyName>FlowerWord</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FlowerWord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FlowerWord.Designer.cs">
+      <DependentUpon>FlowerWord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FlowerWord.resx">
+      <DependentUpon>FlowerWord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Resources\91bab7da-f64a-4745-bf5e-dca08c847daa.tmp" />
+    <None Include="Resources\91bab7da-f64a-4745-bf5e-dca08c847daa1.tmp" />
+    <None Include="Resources\91bab7da-f64a-4745-bf5e-dca08c847daa2.tmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\romashka.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\word-writing-text-seo-marketing-analysis-business-concept-improve-given-website-s-ranking-search-engines-mounted-blank-137632970.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flower-5688775_1280.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ф.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\jnrh %281%29.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\копировать.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\вставить.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\вырезать.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\выделить.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\палитра.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\фон.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\шрифт.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\првка.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\сохрать.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\сохранить_как.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\настройка_текста.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\рк.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3e52c90e41e2b640fe7636bb130a1db5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\resize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-вставить-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-создать-новый-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-color-palette-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-font-60 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-folder-60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-printer-60.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-printer-601.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-открыть-папку-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-редактировать-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-редактирование-файла-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-редактировать-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-setting-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-выровнять-слева-ячейки-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-цвет-заливки-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-цвет-заливки-48 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-color-palette-64 %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-цветовая-палитра-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-палитра-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-палитра-1001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-цветовая-палитра-481.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-повторить-100.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f44acb97b7e394da4cb03d99e29261d5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-маркированный-список-48.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
